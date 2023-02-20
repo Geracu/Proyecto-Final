@@ -1,0 +1,30 @@
+# Proyecto Final Unidad 4
+
+## Algoritmo del Programa
+
+
+1. El asegurado abre el programa.
+1. El asegurado tiene que ingresar su nombre.
+1. El asegurado tiene que ingresar su edad.
+    1. El asegurado tiene que ser mayor de edad, si no lo es, entonces no califica para la cotizacion.
+    1. El recargo se aplicara al total del precio base, dependiendo de la edad del asegurado.
+1. El asegurado tiene que proveer su estado civil.
+    1. Si responde que no, se salta a la siguiente pregunta.
+    1. Si responde que si, entonces tiene que ingresar la edad de su conyuge.
+        1. El recargo se aplicara al total del precio base dependiendo de la edad del conyuge.
+        1. Este recargo se suma al recargo anterior. (Recargo ya calculado sobre la edad del asegurado.)
+1. El asegurado tiene que responder si tiene hijos o no.
+    1. Si responde que no, se salta a la siguiente pregunta.  
+    1. Si responde que si entonces tiene que ingresar la cantidad de hijos.
+        1. Un recargo de 20% sobre el precio base se aplicara por hijo dependiendo de la cantidad de hijos que tiene el asegurado.
+    1. Este recargo se suma al recargo anterior (Recargo por el edad del asegurado mas recargo de la edad de su conyuge, si tuviera conyuge.)
+1. El asegurado tiene que responder cuantas propiedades tiene.
+    1. Un recargo de 35% sobre el precio base se aplicara por propiedad dependiendo de la cantidad de propiedades que tiene el asegurado.
+    1. Este recargo se sumara a los recargos anteriores.
+1. El asegurado tiene que ingresar su salario.
+    1. Un recargo del 5% se aplicara basado en el total del salario. 
+    1. Este recargo se sumara a los recargos anteriores.
+
+1. Cuando haya terminado de responder las preguntas, el programa va regresar con el nombre del asegurado. 
+1. Mostrara el total de los recargos 
+1. Mostrara el total de la cotizacion completa incluyendo el precio base de Q2,000 mas el total de los recargos que seria el total a pagar del seguro.

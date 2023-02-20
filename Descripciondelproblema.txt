@@ -1,0 +1,5 @@
+# Proyecto Final Unidad 4
+
+## Descripcion del Problema
+
+La empresa de seguros TK-U tiene un problema con hacer cotizaciones diarias, como maximo solo hacen 50 cotizaciones al dia de manera manual, esto no es muy eficiente para la empresa ya que puede perder muchas oportunidades para obtenter posibles clientes para la aseguradora, tambien genera un atraso para la entrega de cotizaciones a los clientes haciendo que estos clientes se vayan con otra aseguradora por el tiempo de espera. Este proceso tiene que ser mas eficiente para la empresa de forma mas automatica y rapida para hacer los calculos. 
